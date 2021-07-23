@@ -5,7 +5,7 @@ To create entity relationship diagrams (ERDs), import data into a database, trou
 To determine the number of retiring employees per title and identify employees who are eligible to participate in a mentorship program.
 ## Results:
 ### Retirement Titles table 
-Holds all the information of current employees who were born between January 1, 1952 and December 31, 1955 and will be retiring soon.
+Holds all the information of current employees by title, who were born between January 1, 1952 and December 31, 1955 and will be retiring soon.
 
 ![retirement_titles](https://user-images.githubusercontent.com/84524153/126687516-b73fb038-3a14-4374-9578-c4596fdf9e82.png)
 
