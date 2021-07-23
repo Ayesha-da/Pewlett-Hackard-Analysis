@@ -34,6 +34,6 @@ Mentorship Eligibility table holds experienced and successful current employees 
 
 - Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
 
-  There are 1549 employees who are eligible to mentor, each one has to mentor about 58 new employees which might be a  big number considering the age of retiring employee and     time constraint.Company may consider employing more resources  such as getting help from current employees as peer tutoring or group sessions might help for instance there are    about 56500 senior engineers that will be currently working and can help new employees in their department.
+  There are 1549 employees who are eligible to mentor from various departments, each one has to mentor about 58 new employees on average, which might be a  big number considering the age of retiring employee and time constraint.one department may have higher need than other department.Company may consider employing more resources such as getting help from current employees as peer tutoring or group sessions might help. For instance there are about 56,500 senior engineers that will be currently working and can help new employees in their department.
   
    ![current_total](https://user-images.githubusercontent.com/84524153/126708630-f20c0c5e-62cb-4671-bdb6-947159fae54b.png)
