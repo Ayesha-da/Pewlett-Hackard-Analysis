@@ -1,7 +1,7 @@
 -- The Number of Retiring Employees by Title
 SELECT e.emp_no,
-    e.first_name,
-	e.last_name,
+e.first_name,
+e.last_name,
 ti.title,
 ti.from_date,
 ti.to_date
@@ -30,9 +30,9 @@ ORDER BY COUNT(*) DESC;
 
 -- create a Mentorship Eligibility table that holds the employees who are eligible to participate in a mentorship program.
 SELECT DISTINCT ON (emp_no)e.emp_no,
-    e.first_name,
-	e.last_name,
-	e.birth_date,
+e.first_name,
+e.last_name,
+e.birth_date,
 de.from_date,
 de.to_date,
 ti.title
