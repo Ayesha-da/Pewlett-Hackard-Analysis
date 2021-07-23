@@ -15,7 +15,7 @@ Some employees may have multiple titles in the database, because they have switc
 ![unique_titles](https://user-images.githubusercontent.com/84524153/126687535-205f8e59-03f8-4fa0-8f5c-2fad7e5c5847.png)
 
 ### Retiring titles table
-To retrieve the number of employees by their most recent job title,COUNT() function is used to create a final table that has the number of retirement-age employees by most recent job title.
+To retrieve the number of employees by their most recent job title, COUNT() function is used to create a final table that has the number of retirement-age employees by most recent job title.
 
 ![retiring_titles](https://user-images.githubusercontent.com/84524153/126693230-8d1e7a3b-486f-49b2-888a-6b3d105efc7e.png)
 
