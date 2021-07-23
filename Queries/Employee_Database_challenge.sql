@@ -1,7 +1,7 @@
 -- The Number of Retiring Employees by Title
 SELECT e.emp_no,
-       e.first_name,
-	   e.last_name,
+    e.first_name,
+	e.last_name,
 ti.title,
 ti.from_date,
 ti.to_date
@@ -11,6 +11,7 @@ INNER JOIN titles AS ti
 ON e.emp_no = ti.emp_no
 WHERE (birth_date BETWEEN '1952-01-01' AND '1955-12-31')
 ORDER BY emp_no ASC;
+
 -- Use Dictinct with Orderby to remove duplicate rows
 SELECT DISTINCT ON (emp_no) emp_no,
 first_name,
@@ -19,6 +20,7 @@ title
 INTO unique_titles
 FROM retirement_titles
 ORDER BY emp_no ASC, to_date DESC;
+
 -- Retrieve the number of employees by their most recent job title
 SELECT COUNT(*),title
 INTO retiring_titles
@@ -28,9 +30,9 @@ ORDER BY COUNT(*) DESC;
 
 -- create a Mentorship Eligibility table that holds the employees who are eligible to participate in a mentorship program.
 SELECT DISTINCT ON (emp_no)e.emp_no,
-       e.first_name,
-	   e.last_name,
-	   e.birth_date,
+    e.first_name,
+	e.last_name,
+	e.birth_date,
 de.from_date,
 de.to_date,
 ti.title
