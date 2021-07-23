@@ -6,10 +6,11 @@ To determine the number of retiring employees per title and identify employees w
 ## Results:
 ### Retirement Titles table 
 Holds all the information of current employees who were born between January 1, 1952 and December 31, 1955 and will be retiring soon.
+
 ![retirement_titles](https://user-images.githubusercontent.com/84524153/126687516-b73fb038-3a14-4374-9578-c4596fdf9e82.png)
 
 ### Unique Titles table
-Some employees may have multiple titles in the database, because they have switched titles over the years.DISTINCT ON statement is used to create a table that contains the most recent title of each employee. 
+Some employees may have multiple titles in the database, because they have switched titles over the years. DISTINCT ON statement is used to create a table that contains the most recent title of each employee. 
 
 ![unique_titles](https://user-images.githubusercontent.com/84524153/126687535-205f8e59-03f8-4fa0-8f5c-2fad7e5c5847.png)
 
