@@ -1,6 +1,6 @@
 # Pewlett-Hackard-Analysis
 ## Overview of the analysis:
-To create entity relationship diagrams (ERDs), import data into a database, troubleshoot common errors, and create queries that use data to answer questions to perform employee research to determine who will be retiring and how many vacancies need to be filled, build an employee database with sql by applying data modeling, engineering and analysis skills.
+To create entity relationship diagrams (ERDs), import data into a database, troubleshoot common errors, and create queries that use data to answer questions.To perform employee research to determine who will be retiring and how many vacancies need to be filled, build an employee database with sql by applying data modeling, engineering and analysis skills.
 ### Purpose:
 To determine the number of retiring employees per title and identify employees who are eligible to participate in a mentorship program.
 ## Results:
